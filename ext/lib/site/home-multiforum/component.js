@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router'
 import forumStore from 'lib/stores/forum-store/forum-store'
 
-
 export default class HomeMultiForum extends Component {
   constructor (props) {
     super(props)
