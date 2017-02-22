@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
+import naturalCompare from 'string-natural-compare'
 import forumStore from 'lib/stores/forum-store/forum-store'
 
 export default class HomeMultiForum extends Component {
@@ -16,7 +17,7 @@ export default class HomeMultiForum extends Component {
       limit: 50
     }).then((forums) => {
       this.setState({
-        forums: forums
+        forums: forums.sort((a, b) => naturalCompare(a.name, b.name))
       })
     }).catch((err) => {
       console.error(err)
