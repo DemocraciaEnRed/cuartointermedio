@@ -34,7 +34,7 @@ export default class HomeMultiForum extends Component {
         <div className='jumbotron'>
           <div className='container'>
             <h1 className='display-3'>Cuarto Intermedio</h1>
-            <p className='lead'>Aquí encontrarán una desagregación de los 4 últimos capítulos del documento <strong>“Principios y valores compartidos del Frente Amplio”</strong>, que serán sometidos a debate y aprobación por el Congreso cuando reanude su sesión, ya que el primero fue aprobado con sustantivas enmiendas el pasado noviembre.</p>
+            <p className='lead'>Esta página interactiva se propone conectar a todo el pueblo frenteamplista de manera completamente horizontal e igualitaria con la excusa del cuarto intermedio abierto por el Congreso del FA. Pretende ser un laboratorio político de intervención e interconexión. Sectorizados o independientes, comités o grupos políticos pueden participar aquí aportando libremente todo tipo de opiniones, enmiendas, contribuciones a la organización o lo que juzguen importante, con solo registrarse. Quedan invitados todos quienes se sientan frenteamplistas en la más plena igualdad.</p>
           </div>
         </div>
         {this.state.forums.length > 0 && (
