@@ -58,7 +58,7 @@ const ForumCard = ({ forum }) => (
       <h3 className='card-title'>{ forum.title }</h3>
       <p className='card-text'>{ forum.summary }</p>
       <Link className='btn btn-primary' to={ forum.url }>
-        Ver Artículos &gt;
+        Ver Parágrafos &gt;
       </Link>
     </div>
   </div>

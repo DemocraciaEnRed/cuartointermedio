@@ -20,7 +20,7 @@ export default class HomeForum extends Component {
           id: topic.id
         })
 
-        browserHistory.push(url)
+        browserHistory.replace(url)
       })
       .catch((err) => {
         if (err.status === 404) browserHistory.push('/404')
