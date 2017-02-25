@@ -34,7 +34,10 @@ export default class HomeMultiForum extends Component {
         <div className='jumbotron'>
           <div className='container'>
             <h1 className='display-3'>Cuarto Intermedio</h1>
-            <p className='lead'>Esta página interactiva se propone conectar a todo el pueblo frenteamplista de manera completamente horizontal e igualitaria con la excusa del cuarto intermedio abierto por el Congreso del FA. Pretende ser un laboratorio político de intervención e interconexión. Sectorizados o independientes, comités o grupos políticos pueden participar aquí aportando libremente todo tipo de opiniones, enmiendas, contribuciones a la organización o lo que juzguen importante, con solo registrarse. Quedan invitados todos quienes se sientan frenteamplistas en la más plena igualdad.</p>
+            <p className='lead'>Esta página interactiva se propone <strong>conectar</strong> a todo el <strong>pueblo frenteamplista</strong> de manera completamente <strong>horizontal e igualitaria</strong> con la excusa del cuarto intermedio abierto por el <strong>Congreso</strong> del FA. Pretende ser un laboratorio político de intervención, interconexión, transparencia y elaboración colectiva. Sectorizados o independientes, comités o grupos políticos pueden participar aquí aportando libremente todo tipo de <strong>opiniones, enmiendas, contribuciones a la organización</strong> o lo que juzguen importante, con solo registrarse. Un mayor detalle acerca de cómo hacerlo, los fundamentos de la iniciativa, autores y posibilidades se encuentra en <a href='https://docs.google.com/document/d/1RmFWOv3wyKEd29ysUSUFANXA2OwZJlrplJQj_bLOcq4' rel='noopener nofollow' target='_blank'>leer más</a>. Quedan invitados todos quienes se sientan frenteamplistas en la más <strong>plena igualdad.</strong></p>
+            <p style={{textAlign: 'right'}}>
+              <a href='https://docs.google.com/document/d/1RmFWOv3wyKEd29ysUSUFANXA2OwZJlrplJQj_bLOcq4' rel='noopener nofollow' target='_blank'>Leer más ></a>
+            </p>
           </div>
         </div>
         {this.state.forums.length > 0 && (
